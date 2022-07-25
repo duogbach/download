@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đường Bách</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<script>
+    function alertInfo() {
+        var hide = document.getElementById("info").style.display = "none";;
+        var show = document.getElementById("show").style.display = "block";
+    }
+</script>
+<style>
+    body {
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .center-screen {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+
+    #show {
+        display: none;
+    }
+
+    #show img {
+        width: 300px;
+        height: auto;
+    }
+
+    button {
+        padding: 5px 10px;
+    }
+</style>
+
+<body>
+    <div class="center-screen">
+        <div id="info">
+            <h1>Download source code để tham khảo</h1>
+            <button onclick="alertInfo()">Download tại đây</button>
+        </div>
+        <div id="show">
+            <p>Có cái nịt ￣へ￣</p>
+            <img src="./meme.jpg" alt="">
+        </div>
+    </div>
+</body>
+
+</html>
